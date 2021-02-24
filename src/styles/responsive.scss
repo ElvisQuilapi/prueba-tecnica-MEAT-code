@@ -1,0 +1,293 @@
+@media (max-width: 480px) { 
+
+    .wrapper {
+        background-position: 100% 0;
+        .contenido  {
+            padding: 2em;
+            .descripcion { 
+                padding: 50% 0;
+                .titulo {
+                    text-align: center;
+                    font-size: 70px;
+                    line-height: 60px;
+                    &:after {
+                        width: 390px;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-articulos  {
+        padding: 2em;
+        .tabs {
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: column;
+            .opciones { 
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .contenido {
+                width: 100%;
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    .wrapper-contacto {
+        padding: 2em;
+        .contacto { 
+            padding: 0;
+            .formulario {
+                grid-template-columns: 1fr;
+              }
+        }
+       
+    }
+
+    .titulo-seccion {
+        h2 {
+            font-size: 60px;
+            line-height:50px;
+            &:after {
+                height: 85px;
+                width: 280px;
+                bottom: -40px;
+            }
+        }
+    }
+
+    .styles-social {
+        li {
+            padding: 5px;
+            a img {
+                width: 40px;
+            }
+          }
+    }
+
+    .card {
+        margin: 0;
+    }
+ }
+ 
+@media (max-width: 767px) { 
+    .wrapper {
+        background-position: 100% 0;
+        .contenido  {
+            padding: 2em;
+            .descripcion { 
+                padding: 50% 0;
+                .titulo {
+                    text-align: center;
+                    font-size: 70px;
+                    line-height: 60px;
+                    &:after {
+                        width: 390px;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-articulos  {
+        padding: 2em;
+        .tabs {
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: column;
+            .opciones { 
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .contenido {
+                width: 100%;
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    .wrapper-contacto {
+        padding: 2em;
+        .contacto { 
+            padding: 0;
+            .formulario {
+                grid-template-columns: 1fr;
+              }
+        }
+       
+    }
+
+    .titulo-seccion {
+        h2 {
+            font-size: 60px;
+            line-height:50px;
+            &:after {
+                height: 85px;
+                width: 280px;
+                bottom: -40px;
+            }
+        }
+    }
+
+    .styles-social {
+        li {
+            padding: 5px;
+            a img {
+                width: 40px;
+            }
+          }
+    }
+
+    .card {
+        margin: 0;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 1199px) { 
+    .wrapper {
+        background-position: 55% 0;
+        .contenido  {
+            padding: 2em;
+            .descripcion { 
+                padding: 15em 0;
+                .titulo {
+                    text-align: center;
+                    font-size: 100px;
+                    line-height: 60px;
+                    &:after {
+                        width: 590px;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-articulos  {
+        padding: 2em;
+        .tabs {
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: row;
+            .opciones { 
+                width: 30%;
+                margin-bottom: 20px;
+            }
+            .contenido {
+                width: 70%;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+
+    .wrapper-contacto {
+        padding: 2em;
+        .contacto { 
+            padding: 0;
+            .formulario {
+                grid-template-columns: 1fr 1fr;
+              }
+        }
+       
+    }
+
+    .titulo-seccion {
+        h2 {
+            font-size: 60px;
+            line-height:50px;
+            &:after {
+                height: 85px;
+                width: 280px;
+                bottom: -40px;
+            }
+        }
+    }
+
+    .styles-social {
+        li {
+            padding: 5px;
+            a img {
+                width: 40px;
+            }
+          }
+    }
+
+    .card {
+        margin: 0 10px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .wrapper {
+        background-position: center center;
+
+        .contenido  {
+            padding: 3em 5em;
+            .descripcion { 
+                padding: 10% 0;
+                .titulo {
+                    font-size: 120px;
+                    line-height: 120px;
+                    &:after {
+                        width: 780px;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-articulos  {
+        padding: 2em 10em;
+        .tabs {
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: row;
+            .opciones { 
+                width: 20%;
+                .acciones {
+                    min-height: 319px;}
+
+            }
+            .contenido {
+                width: 80%;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    }
+
+    .wrapper-contacto {
+        padding: 3em 5em;
+        .contacto {
+            padding: 0 20em;
+            .formulario {
+                grid-template-columns: 1fr 1fr;
+              }
+        }
+
+        
+    }
+
+    // Components
+
+    .titulo-seccion {
+        h2 {
+            font-size: 80px;
+            line-height: 38px;
+            &:after {
+                height: 85px;
+                width: 464px;
+                top: 10px;
+            }
+        }
+    }
+
+    .styles-social {
+        li {
+            padding: 5px;
+            a img {
+                width: 40px;
+            }
+          }
+    }
+
+    .card {
+        margin: 0 10px;
+    }
+ }
